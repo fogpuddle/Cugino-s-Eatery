@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=he, initial-scale=1.0">
+  <title>Cugino's Italian Eatery</title>
+</head>
+<body>
+  <header class="restaurant__header">
+    <h1>Cugino's Italian Eatery</h1>
+  </header>
+  <main>
+    <section class="restaurant__intro">
+      <p>This Restaurant features various tradional italian dishes just like your grandmother use to make.  Whether it's pizza, pasta, or a salad, Cugino's has what you like.</p>
+    </section>
+    <section>
+      <address itemscope itemtype="http://schema.org/PostalAddress">
+        <div class="restraurant__address">
+          <p class="restaurant__address--label"></p>
+          <p class="restraurant__address--street" itemprop="streetAddress">215 New Rd.</p>
+    <p><span class="restraurant__address--city" itemprop="addressLocality">Philadelphia</span>, <span class="restraurant__address--state" itemprop="addressRegion">PA</span></p>
+          <p class="restraurant__address--zip" itemprop="postalCode">19129</p>
+        </div>
+        
+        <div class="restraurant__phone">
+          <p class="restaurant__phone--label">Phone</p>
+          <p class="restaurant__phone--number" itemprop="telephone">215-213-1010</p>
+        </div>
+      </address>
+      <div itemscope itemtype="http://schema.org/LocalBusiness"> 
+        <table class="restraurant__hours">
+          <tr itemprop="openingHours" title="Mo Closed">
+              <td>Mon-</td>
+              <td>Closed</td>
+          </tr>
+          <tr itemprop="openingHours" title="Tu 17:30-22:30">
+            <td>Tue-</td>
+            <td>5:30pm - 10:30pm</td>
+          </tr>
+          <tr itemprop="openingHours" title="We 17:30-22:30">
+            <td>Wed</td>
+            <td>5:30pm - 10:30pm</td>
+          </tr>
+          <tr itemprop="openingHours" title="Th 17:30-22:30">
+            <td>Thu</td>
+            <td>5:30pm - 10:30pm</td>
+          </tr>
+          <tr itemprop="openingHours" title="Fr 17:30-22:30">
+            <td>Fri</td>
+            <td>5:30pm - 10:30pm</td>
+          </tr>
+          <tr itemprop="openingHours" title="Sa 17:30-22:30">
+            <td>Sat</td>
+            <td>5:30pm - 10:30pm</td>
+          </tr>
+          <tr itemprop="openingHours" title="Su 17:30-22:30">
+            <td>Sun</td>
+            <td>5:30pm - 10:30pm</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <aside>
+      <nav class="restraurant__actions">
+        <ul>
+          <li class="restraurant__actions--add-photo"><a href="#">Add Photo</a></li>
+          <li class="restaurant__actions--share"><a href="#">Share</a></li>
+          <li class="restaurant__actions--bookmark"><a href="#">Bookmark</a></li>
+        </ul>
+      </nav>
+      <figure>
+        <img src="pizza-image.jpg" alt="" />
+        <figcaption class="restraurant__review">
+          <img src="profile-image.jpg" alt="" class="restraurant__review--profile-image" />
+          <p class="restraurant__review--comment">1/2 Roasted Onion...the sweetest onions<span>by Tracy W</span></p>
+        </figcaption>
+      </figure>
+    </aside>
+  </main>
+  <footer>
+    <div class="restraurant__ratings">
+      <p class="restraurant__ratings--label">500 total reviews</p>
+      <div class="star-rating-display" data-rating="2"><span class="is-vishidden">Two stars</span></div>
+    </div>
+    <button class="restaurant__write-review">Write a Review</button>
+  </footer>
+</body>
+</html>
